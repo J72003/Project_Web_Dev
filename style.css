@@ -1,0 +1,106 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1e8; /* Light beige background */
+    color: #333333; /* Dark grey text */
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #b7410e; /* Dark brick red header */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.questionnaire {
+    padding: 2em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #333333; /* Dark grey text */
+}
+
+label {
+    margin-top: 1em;
+    color: #b7410e; /* Dark brick red text */
+    font-weight: bold;
+}
+
+input, select {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    background-color: #e0dcc7; /* Light brick beige input */
+    color: #333333; /* Dark grey text */
+    border: 1px solid #b7410e; /* Dark brick red border */
+}
+
+button {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #b7410e; /* Dark brick red button */
+    color: #ffffff; /* White text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8f330a; /* Darker brick red on hover */
+}
+
+.workout-plan {
+    padding: 2em;
+    text-align: center;
+    background-color: #e0dcc7; /* Light brick beige background */
+    color: #333333; /* Dark grey text */
+    margin: 2em;
+    border-radius: 8px;
+}
+
+section {
+    padding: 2em;
+}
+
+h2 {
+    color: #b7410e; /* Dark brick red text */
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+

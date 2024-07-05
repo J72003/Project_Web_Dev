@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="workout.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workout.html">Workout Plans</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="workout-plans">
+        <div class="hero-section">
+            <h1>Achieve Your Fitness Goals with Personalized Workout Plans</h1>
+            <div class="cta-buttons">
+                <a href="#lose-weight" class="btn">Lose Weight</a>
+                <a href="#gain-muscle" class="btn">Gain Muscle</a>
+                <a href="#stay-fit" class="btn">Stay Fit</a>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="workout-card" id="day1">
+                <h2>Day 1: Cardio Blast</h2>
+                <button class="expand-btn">Expand</button>
+                <div class="details">
+                    <!-- Details of the workout -->
+                </div>
+            </div>
+            <div class="workout-card" id="day2">
+                <h2>Day 2: Strength Training</h2>
+                <button class="expand-btn">Expand</button>
+                <div class="details">
+                    <!-- Details of the workout -->
+                </div>
+            </div>
+            <!-- More workout cards -->
+        </div>
+        <div class="filter-sort">
+            <select id="goal-filter">
+                <option value="all">All Goals</option>
+                <option value="lose-weight">Lose Weight</option>
+                <option value="gain-muscle">Gain Muscle</option>
+                <option value="stay-fit">Stay Fit</option>
+            </select>
+            <select id="difficulty-sort">
+                <option value="all">All Difficulties</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            <select id="duration-sort">
+                <option value="all">All Durations</option>
+                <option value="30mins">30 mins</option>
+                <option value="1hour">1 hour</option>
+                <option value="1.5hours">1.5 hours</option>
+            </select>
+        </div>
+        <div class="educational-resources">
+            <h2>Tips and Guides</h2>
+            <ul>
+                <li><a href="#">Nutrition Tips</a></li>
+                <li><a href="#">Injury Prevention</a></li>
+                <!-- More resources -->
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you achieve your fitness goals.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@fitnessplanner.com</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
